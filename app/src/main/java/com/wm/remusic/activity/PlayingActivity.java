@@ -109,7 +109,6 @@ public class PlayingActivity extends BaseActivity implements IConstants {
 
     @Override
     protected void showQuickControl(boolean show) {
-        //super.showOrHideQuickControl(show);
     }
 
     @Override
@@ -160,7 +159,6 @@ public class PlayingActivity extends BaseActivity implements IConstants {
         loadOther();
         setViewPager();
         initLrcView();
-        // setViewPager();
     }
 
     private void initLrcView() {

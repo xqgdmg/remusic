@@ -551,19 +551,6 @@ public class MusicPlayer {
                 }
             }
 
-//            if( current != -1){
-//                ArrayList lists = new ArrayList();
-//                for(int i = 0; i<list.length;i++){
-//                    if(i != current){
-//                        lists.add(list[i]);
-//                    }
-//                }
-//                result = new long[list.length - 1];
-//                for(int i = 0;i<lists.size();i++){
-//                     result[i] = (long) lists.get(i);
-//                }
-//            }
-
             mService.enqueue(list, map, MediaService.NEXT);
 
             Toast.makeText(context, R.string.next_play, Toast.LENGTH_SHORT).show();
